@@ -18,8 +18,12 @@ body {
   color: #125688;
   font-size: 30px;
   font-family: 'Pacifico', cursive;
+
 }
 
+a:hover{
+  text-decoration: none;
+}
 
 .top-nav .add a {
   font-weight: bold;
@@ -95,6 +99,8 @@ input {
   font-size: 16px;
   margin-right: 20px;
   margin-left: auto;
+  padding-left: 10px;
+
 }
 
 .comments {
@@ -111,4 +117,7 @@ input {
   font-weight: bold;
   font-size: 18px;
 }
+
+
+
 

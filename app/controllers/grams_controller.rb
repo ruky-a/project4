@@ -1,5 +1,5 @@
 class GramsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy, :index]
   
   def update
     @gram = Gram.find_by_id(params[:id])
