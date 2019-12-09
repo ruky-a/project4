@@ -1,6 +1,6 @@
 class GramsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
-  
+
   def update
     @gram = Gram.find_by_id(params[:id])
     return render_not_found if @gram.blank?
@@ -29,7 +29,7 @@ class GramsController < ApplicationController
   def index
     @grams = Gram.all
   end 
-   
+
 
   def show 
     @gram = Gram.find_by_id(params[:id])
@@ -45,9 +45,9 @@ class GramsController < ApplicationController
 
 
   def create
-   @gram = current_user.grams.create(gram_params)
+    @gram = current_user.grams.create(gram_params)
     if @gram.valid?
-   redirect_to root_path
+      redirect_to root_path
     else
       render :new, status: :unprocessable_entity
     end
@@ -59,6 +59,6 @@ class GramsController < ApplicationController
     params.require(:gram).permit(:message, :picture)
   end
 
-  end
+end
 
 
