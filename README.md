@@ -1,9 +1,9 @@
-# Instagram clone 
+# Test-Driven Development..Respec testing
 
 
-An Instagram clone that was built using industry-standard, test-driven
+A photo sharing app built using industry-standard, test-driven
 development following numerous red/green/refactor cycles.
 
-Built with Ruby on rails and rspec testing.
+Built with Ruby on rails and Rspec testing.
 
 
