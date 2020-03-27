@@ -1,4 +1,4 @@
-# Test-Driven Development..Respec testing
+# Test-Driven Development..Rspec testing
 
 
 A photo sharing app built using industry-standard, test-driven
