@@ -1,4 +1,4 @@
-# Test-Driven Development..Rspec testing
+# Grammable
 
 
 A photo sharing app built using industry-standard, test-driven
